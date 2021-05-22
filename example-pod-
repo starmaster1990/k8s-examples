@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prueba_app
+  labels:
+    app: prueba
+spec:
+  containers:
+   - name: prueba_app
+     image: starmaster1990/php_lumen
